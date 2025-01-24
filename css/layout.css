@@ -45,3 +45,45 @@ a{
 .aie{
     align-items: flex-end;
 }
+
+
+/* hd */
+.d1a{
+    font-size: 22px;
+    line-height: 100px;
+    padding: 0  30px;
+    background-color: #333;
+    color:white;
+    transition: 0.3s;
+}
+/* 소메뉴들 */
+.d2ul{
+    background-color: black;
+    left:0;
+    min-width:140px;
+    top:100%; 
+    line-height: 30px; 
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.5s;  
+}
+.d2a{
+    color:white;
+}
+.d1li1 .d2ul,
+.d1li3 .d2ul{
+    background-color: orange;
+}
+.d1li1 .d2ul{
+    min-width:280px;
+    left:-130px;
+}
+.d1li:hover .d2ul{
+    max-height: 230px;
+    background-color: red;
+}
+.d1li:hover .d1a{
+    background-color: white;
+    color:black;
+    padding:0 45px;
+}
